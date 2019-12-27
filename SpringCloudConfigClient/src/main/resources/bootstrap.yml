@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: config-single-client  # 应用名称
+  cloud:
+    config:
+      uri: http://localhost:3301
+      label: master
